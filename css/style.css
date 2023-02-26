@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Montserrat', sans-serif;
+}
+.navFijo {
+  background-color: rgb(67, 55, 112);
+  position: fixed;
+  height: 40px;
+  text-align: center;
+  padding: 50px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+
+}
+nav {
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+}
+main {
+  margin-top: 120px;
+}
+body {
+  background-color: #3eecac;
+  background-image: linear-gradient(19deg, #3eecac 0%, #ee74e1 100%);
+}
+
+.contenedorDeLogoPrincipal {
+  width: 100%;
+  text-align: center;
+}
+.contenedorDeLogoPrincipal img {
+  width: 50%;
+}
+.fases{
+  padding: 0px 20px;
+scroll-margin-top: 110px;
+}
+.contenedordeGrupos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+  padding: 0px 20px;
+  gap: 10px;
+}
+.contenedordeGrupos {
+  width: 100%;
+}
+.grupos {
+  width: 31%;
+  height: auto;
+}
+.contenedordePartidos {
+  width: 100%;
+  height: auto;
+}
+.primerFila {
+  display: flex;
+  justify-content: space-between;
+}
+.segundaFila {
+  display: flex;
+  justify-content: space-around;
+}
+
+h3 {
+  text-align: center;
+  background-color: aquamarine;
+}
+h2{
+  padding-top:10px; 
+  margin: 10px 0px;
+}
+.contenedorfechas {
+  padding-left: 10px;
+}
+.contenedorEstadios {
+  padding-right: 10px;
+}
+.impar {
+  background-color: #dadada;
+}
+.par {
+  background-color: #f3f7fe;
+}
+
+hr{
+  margin: 10px 0px;
+}
+
+.contenedordeTextosyfases{
+  padding: 10px 0px;
+}
+
+
+footer {
+  background-color: rgb(67, 55, 112);
+height: 40px;
+display: flex;
+justify-content: center;
+align-items: center;
+color: white;
+padding: 50px;
+}
+
+
+@media screen and (min-width:768px) and (max-width:991px){
+  .grupos{
+    width: 47%;
+  }
+}
+@media all and (max-width: 767px){
+  .grupos{
+    width: 97%;
+  }
+  nav{
+    width: 100%;
+  }
+}
+
